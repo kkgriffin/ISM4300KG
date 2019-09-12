@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <RootNamespace>Group_Activity</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="C:\Users\Kkyle\source\repos\kkgriffin\ISM4300KG\Class Project - Deliverable 2 - Iterative Statement.cs" Link="Class Project - Deliverable 2 - Iterative Statement.cs" />
+  </ItemGroup>
+
+</Project>
