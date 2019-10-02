@@ -1,0 +1,20 @@
+<script src="Validation.js"></script>
+
+<html>
+
+<body>
+
+	<form name="InputValues" onsubmit="return ValidationFunction()" method="post">
+	<h1>Customer information</h1>
+	<p>First name: </p>
+	<input class="form-control" type="text" name="First" placeholder="Enter first name here">
+	<p>Last name: </p>
+	<input class="form-control" type="text" name="Last" placeholder="Enter last name here">
+	<p>E-mail: </p>
+	<input class="form-control" type="text" name="Email" placeholder="Enter e-mail here">
+	<p name="BlankSpace"></p>
+	<input class="btn btn-success" type="submit" value="Submit">
+  
+
+</body>
+</html>
