@@ -1,0 +1,19 @@
+<link rel="stylesheet" href="StyleSheet.css" >
+
+<html>
+
+<body>
+	<form name="InputValues">
+	<h1>Customer information</h1>
+	<p>First name: </p>
+	<input class="form-control" placeholder="Enter first name here"></input>
+	<p>Last name: </p>
+	<input class="form-control" placeholder="Enter last name here"></input>
+	<p>E-mail: </p>
+	<input class="form-control" placeholder="Enter e-mail here"></input>
+	<p name="BlankSpace"></p>
+
+	<button = "button" class = "btn btn-success">Submit</button>
+	</form>
+</body>
+</html>
