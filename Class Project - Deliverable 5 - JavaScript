@@ -1,0 +1,20 @@
+function ValidationFunction(){
+	var firstname = document.forms["InputValues"]["First"].value;
+	var lastname = document.forms["InputValues"]["Last"].value;
+	var email = document.forms["InputValues"]["Email"].value;
+	
+	if (firstname == "") {
+		alert("Please fill out the first name field");
+		return false;
+	}
+	
+	if (lastname == "") {
+		alert("Please fill out the last name field");
+		return false;
+	}
+	
+	if (email == "") {
+		alert("Please fill out the email filed");
+		return false;
+	}
+}
